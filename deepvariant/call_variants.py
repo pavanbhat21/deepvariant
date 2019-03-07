@@ -90,7 +90,7 @@ flags.DEFINE_integer(
     'Larger batches use more memory but are more computational efficient.')
 flags.DEFINE_integer('max_batches', None,
                      'Max. batches to evaluate. Defaults to all.')
-flags.DEFINE_integer('num_readers', 8,
+flags.DEFINE_integer('num_readers', 16,
                      'Number of parallel readers to create for examples.')
 flags.DEFINE_string('model_name', 'inception_v3',
                     'The name of the model architecture of --checkpoint.')
